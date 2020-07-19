@@ -1,0 +1,34 @@
+/* header */   
+#navigation-bar{
+    background-color: rgb(177, 177, 177);
+
+}
+#nav-heading{
+    font-size: xx-large;
+    font-weight: 600;
+}
+.navbar .dropdown-toggle::after{
+    content: none;
+} 
+
+/* content */
+#menu-title{
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.row h4{
+    text-align: center;
+}
+
+.menu-item{
+    background-color: beige;
+    margin:10px 0px;
+    padding: 10px;
+}
+
+@media  (max-width:575px){
+    .menu-item{
+        margin: 10px 30px;
+    }
+}
