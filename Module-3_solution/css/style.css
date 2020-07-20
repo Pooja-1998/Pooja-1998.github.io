@@ -9,7 +9,22 @@
 }
 .navbar .dropdown-toggle::after{
     content: none;
-} 
+}
+.dropdown { 
+    position: static; 
+}
+.dropdown-menu 
+{ 
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15); 
+    margin-top: 0px ; 
+    width: 100% ;
+    background-color:rgb(87, 136, 136);
+    text-align: center;
+}
+.dropdown-menu a{
+    color: white;
+    font-weight: 600;
+}
 
 /* content */
 #menu-title{
